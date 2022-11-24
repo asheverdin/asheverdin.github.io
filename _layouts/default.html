@@ -4,7 +4,7 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
+  <!-- <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
   <meta name="description" content="Martin Saveski">
   <meta name="author" content="Martin Saveski">
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.martinsaveski.com" />
   <meta property="og:site_name" content="Martin Saveski" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <link rel="canonical" href="http://www.martinsaveski.com" /> -->
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,20 +76,26 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+<!-- doublesize font-awesome icons–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+              <span  onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+                <i
+                style="font-size:45px;" class="fa fa-twitter " aria-hidden="true"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i
+                style="font-size:45px;"  class="fa fa-linkedin-square " aria-hidden="true"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i 
+                style="font-size:45px;"class="fa fa-github" aria-hidden="true"></i> 
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+                <i 
+                style="font-size:45px;"class="ai ai-google-scholar " aria-hidden="true"></i>
               </span>
             </p>
         </div>
@@ -100,11 +106,12 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#about" | prepend: site.baseurl }}>About</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li> -->
         </ul>
       </div>
     </nav>
@@ -117,7 +124,9 @@
           {{ site.data.main_info.name }}
         </div>
         <div class="four columns">
-          {{ site.data.main_info.email }}
+          {{ site.data.main_info.email }} 
+          <p style="font-size:10px; ">               </p>
+          <p style="font-size:10px; "> This website was built with jekyll based on a <a href="https://github.com/msaveski/www_personal" target="_blank">template</a> by Martin Saveski </p>
         </div>
         <div class="four columns">
           <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
@@ -139,7 +148,7 @@
   </div>
 
   <!-- Google Analytics -->
-  {% include google_analytics.html %}
+  <!-- {% include google_analytics.html %} -->
 
   <!-- do not remove -->
   <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
