@@ -7,12 +7,10 @@ title: Home
   <h4>About</h4>
   <p>
     I am a Doctoral Researcher at the Helmholtz Munich and Technical University of Munich (TUM) at
-    <a href="https://fortuin.github.io/" style="text-decoration:none" target="_blank">  Dr. Vincent Fortuin's lab</a> 
-    lab.
+    <a href="https://fortuin.github.io/" style="text-decoration:none" target="_blank">  Dr. Vincent Fortuin's lab</a> .
   </p>
-  <p>
+  <!-- <p> -->
    
-  .
   <!-- <a href="assets/publications/2022_flipfeed/paper.pdf" target="_blank">ICWSM'22b</a>,
   <a href="assets/publications/2021_balanced_inf_max/paper.pdf" target="_blank">WSDM'21</a>,
   <a href="assets/publications/2018_social_mirror/paper.pdf" target="_blank">WWW'18</a>],
@@ -22,7 +20,7 @@ title: Home
   and causal inference in social systems 
   [<a href="assets/publications/2017_detecting_network_effects/paper.pdf" target="_blank">KDD'17</a>
   <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>].  -->
-  </p>
+  <!-- </p> -->
 
   <p>
 My research interests are in LLM trustworthiness, uncertainty estimation, and LLM efficiency. 
@@ -74,87 +72,35 @@ More broadly, I work on generative modeling and efficient LLMs.
   <!-- <sup>‡</sup> indicates equal contribution. -->
   </p>
 
-  <!-- <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
+  <!-- Show only papers with `selected: y` from `_data/publications.yaml`. -->
+  {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+  {% for paper in selected_papers %}
+    <div class="paper">
+      {% if paper.url %}
+        <p class="title"><b><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></b></p>
+      {% else %}
+        <p class="title"><b>{{ paper.title }}</b></p>
+      {% endif %}
+      <p>{{ paper.authors }}</p>
+      <p><i>{{ paper.venue }}</i></p>
+      <div class="paper-buttons">
+        {% if paper.url %}
+          <a class="button" href="{{ paper.url }}" target="_blank" rel="noopener">Venue</a>
+        {% endif %}
+        {% if paper.paper_pdf %}
+          <a class="button" href="{{ paper.paper_pdf }}" target="_blank" rel="noopener">PDF</a>
+        {% endif %}
+        {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank" rel="noopener">Code</a>
+        {% endif %}
+        {% if paper.data %}
+          <a class="button" href="{{ paper.data }}" target="_blank" rel="noopener">Data</a>
+        {% endif %}
+      </div>
     </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div> -->
-
+	  {% endfor %}
+	</div>
+	
 <!-- ========== PROJECTS ========== 
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
