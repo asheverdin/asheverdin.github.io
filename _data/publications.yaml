@@ -7,42 +7,53 @@
 # - paper_pdf: optional external PDF link (e.g., arXiv)
 # - selected: y|n (only `y` is shown on the homepage)
 papers:
-  - title: "Photonic inverse design with neural networks: the case of invisibility in the visible"
-    authors: "<b>Arsen Sheverdin</b>, Francesco Monticone, Constantinos Valagiannopoulos"
-    venue: "Physical Review Applied, 14(2): 024054 (2020)"
-    selected: y
 
-  - title: "Core-shell nanospheres under visible light: Optimal absorption, scattering, and cloaking"
-    authors: "<b>Arsen Sheverdin</b>, Constantinos Valagiannopoulos"
-    venue: "Physical Review B, 99(7): 075305 (2019)"
-    selected: y
-
-  - title: "Maximizing Photonic Response with Simple Resonating Structures in Various Geometries"
-    authors: "Constantinos Valagiannopoulos, <b>Arsen Sheverdin</b>, Adilkhan Sarsen, Aivar Abrashuly"
-    venue: "APS March Meeting Abstracts, 2019: V09-012 (2019)"
-    selected: y
-
-  - title: "Extensive air showers event reconstruction using spatial and temporary particle distribution at Horizon-T experiment"
-    authors: "D Beznosko, K Yelshibekov, RU Beisembaev, EA Beisembaeva, T Beremkulov, A Iakovlev, S Jakupov, <b>Arsen Sheverdin</b>, Z Tagay, T Uakhitov, et al."
-    venue: "Journal of Physics: Conference Series, 1342(1): 012136 (2020)"
-    selected: y
-
-  - title: "Reproducibility report for \"Interpretable Complex-Valued Neural Networks for Privacy Protection\""
-    authors: "<b>Arsen Sheverdin</b>, Noud Corten, Alko Knijff, Georg Lange"
-    venue: "ML Reproducibility Challenge (2020)"
-    url: https://openreview.net/forum?id=P30M7d9DyXw
+  - title: "Gaussian stochastic weight averaging for Bayesian low-rank adaptation of large language models"
+    authors: "Emre Onal, Klemens Floge, Emma Caldwell, <b>Arsen Sheverdin</b>, Vincent Fortuin"
+    venue: "ApproximateThe 7th Symposium on Advances in Approximate Bayesian Inference (AABI), 2024"
+    url: "https://openreview.net/forum?id=LZrCBQBCzl"
+    paper_pdf: "https://openreview.net/pdf?id=LZrCBQBCzl"
     selected: y
 
   - title: "From Hyperbolic Geometry Back to Word Embeddings"
     authors: "Zhenisbek Assylbekov, Sultan Nurmukhamedov, <b>Arsen Sheverdin</b>, Thomas Mach"
     venue: "Proceedings of the 7th Workshop on Representation Learning for NLP, 39-45 (2022)"
-    url: https://aclanthology.org/2022.repl4nlp-1.5/
+    url: "https://aclanthology.org/2022.repl4nlp-1.5/""
     paper_pdf: "https://aclanthology.org/2022.repl4nlp-1.5.pdf"
     selected: y
 
-  - title: "Gaussian stochastic weight averaging for Bayesian low-rank adaptation of large language models"
-    authors: "Emre Onal, Klemens Floge, Emma Caldwell, <b>Arsen Sheverdin</b>, Vincent Fortuin"
-    venue: "ApproximateThe 7th Symposium on Advances in Approximate Bayesian Inference (AABI)"
-    url: "https://openreview.net/forum?id=LZrCBQBCzl"
-    paper_pdf: "https://openreview.net/pdf?id=LZrCBQBCzl"
+  - title: "Reproducibility report for \"Interpretable Complex-Valued Neural Networks for Privacy Protection\""
+    authors: "<b>Arsen Sheverdin</b>, Noud Corten, Alko Knijff, Georg Lange"
+    venue: "ML Reproducibility Challenge (2020)"
+    url: "https://rescience.github.io/bibliography/Sheverdin_2021.html"
+    paper_pdf: 	"https://zenodo.org/record/4835431/files/article.pdf"
     selected: y
+
+  - title: "Photonic inverse design with neural networks: the case of invisibility in the visible"
+    authors: "<b>Arsen Sheverdin</b>, Francesco Monticone, Constantinos Valagiannopoulos"
+    venue: "Physical Review Applied, 14(2): 024054 (2020)"
+    url: "https://link.aps.org/doi/10.1103/PhysRevApplied.14.024054s"
+    paper_pdf: "https://www.researchgate.net/profile/Costas-Valagiannopoulos/publication/331219817_Core-shell_nanospheres_under_visible_light_Optimal_absorption_scattering_and_cloaking/links/5c6d051592851c1c9deeb6c5/Core-shell-nanospheres-under-visible-light-Optimal-absorption-scattering-and-cloaking.pdf"
+    selected: y
+
+  - title: "Core-shell nanospheres under visible light: Optimal absorption, scattering, and cloaking"
+    authors: "<b>Arsen Sheverdin</b>, Constantinos Valagiannopoulos"
+    venue: "Physical Review B, 99(7): 075305 (2019)"
+    url: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.075305"
+    paper_pdf: "https://www.researchgate.net/profile/Costas-Valagiannopoulos/publication/331219817_Core-shell_nanospheres_under_visible_light_Optimal_absorption_scattering_and_cloaking/links/5c6d051592851c1c9deeb6c5/Core-shell-nanospheres-under-visible-light-Optimal-absorption-scattering-and-cloaking.pdf"
+    selected: y
+
+  - title: "Maximizing Photonic Response with Simple Resonating Structures in Various Geometries"
+    authors: "Constantinos Valagiannopoulos, <b>Arsen Sheverdin</b>, Adilkhan Sarsen, Aivar Abrashuly"
+    venue: "APS March Meeting Abstracts, 2019: V09-012 (2019)"
+    selected: n
+
+  - title: "Extensive air showers event reconstruction using spatial and temporary particle distribution at Horizon-T experiment"
+    authors: "D Beznosko, K Yelshibekov, RU Beisembaev, EA Beisembaeva, T Beremkulov, A Iakovlev, S Jakupov, <b>Arsen Sheverdin</b>, Z Tagay, T Uakhitov, et al."
+    venue: "Journal of Physics: Conference Series, 1342(1): 012136 (2020)"
+    selected: n
+
+
+
+
+
