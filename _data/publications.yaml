@@ -18,7 +18,7 @@ papers:
   - title: "From Hyperbolic Geometry Back to Word Embeddings"
     authors: "Zhenisbek Assylbekov, Sultan Nurmukhamedov, <b>Arsen Sheverdin</b>, Thomas Mach"
     venue: "Proceedings of the 7th Workshop on Representation Learning for NLP, 39-45 (2022)"
-    url: "https://aclanthology.org/2022.repl4nlp-1.5/""
+    url: "https://aclanthology.org/2022.repl4nlp-1.5/"
     paper_pdf: "https://aclanthology.org/2022.repl4nlp-1.5.pdf"
     selected: y
 
