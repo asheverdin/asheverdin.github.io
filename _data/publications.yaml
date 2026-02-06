@@ -32,8 +32,8 @@ papers:
   - title: "Photonic inverse design with neural networks: the case of invisibility in the visible"
     authors: "<b>Arsen Sheverdin</b>, Francesco Monticone, Constantinos Valagiannopoulos"
     venue: "Physical Review Applied, 14(2): 024054 (2020)"
-    url: "https://link.aps.org/doi/10.1103/PhysRevApplied.14.024054s"
-    paper_pdf: "https://www.researchgate.net/profile/Costas-Valagiannopoulos/publication/331219817_Core-shell_nanospheres_under_visible_light_Optimal_absorption_scattering_and_cloaking/links/5c6d051592851c1c9deeb6c5/Core-shell-nanospheres-under-visible-light-Optimal-absorption-scattering-and-cloaking.pdf"
+    url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.14.024054"
+    paper_pdf: "https://www.researchgate.net/profile/Costas-Valagiannopoulos/publication/343756672_Photonic_Inverse_Design_with_Neural_Networks_The_Case_of_Invisibility_in_the_Visible/links/5f41491a92851cd30217ceb3/Photonic-Inverse-Design-with-Neural-Networks-The-Case-of-Invisibility-in-the-Visible.pdf"
     selected: y
 
   - title: "Core-shell nanospheres under visible light: Optimal absorption, scattering, and cloaking"
