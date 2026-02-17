@@ -10,7 +10,7 @@ papers:
 
   - title: "Gaussian stochastic weight averaging for Bayesian low-rank adaptation of large language models"
     authors: "Emre Onal, Klemens Floge, Emma Caldwell, <b>Arsen Sheverdin</b>, Vincent Fortuin"
-    venue: "ApproximateThe 7th Symposium on Advances in Approximate Bayesian Inference (AABI), 2024"
+    venue: "The 7th Symposium on Advances in Approximate Bayesian Inference (AABI), 2024"
     url: "https://openreview.net/forum?id=LZrCBQBCzl"
     paper_pdf: "https://openreview.net/pdf?id=LZrCBQBCzl"
     selected: y
